@@ -1,0 +1,65 @@
+/* Hero/Landing Section */
+.hero-section {
+    background-color: rgb(139, 38, 53); /* Renaissance Red background */
+    color: rgb(255, 255, 255); /* White text */
+    text-align: center;
+    padding: 6rem 2rem;
+    margin-bottom: 3rem;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-section h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.hero-tagline {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: rgb(212, 175, 55); /* Warm Gold */
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 2.5rem;
+    color: rgb(250, 247, 242); /* Warm Cream */
+}
+
+/* Call-to-Action Button */
+.cta-button {
+    display: inline-block;
+    background-color: rgb(212, 175, 55); /* Warm Gold */
+    color: rgb(58, 58, 58); /* Charcoal Gray text */
+    padding: 1rem 2.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    border: 2px solid rgb(212, 175, 55);
+}
+
+.cta-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(139, 38, 53); /* Renaissance Red */
+    border-color: rgb(255, 255, 255);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
